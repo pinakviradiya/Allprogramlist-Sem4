@@ -1,1 +1,32 @@
+import java.util.*;
+class sum
+{
+	public static void main(String[] args)
+	{
+		int a,b,c,sum;
+		float avg;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Pinak viradiya");
+		System.out.println("220130318014");
+
+		System.out.print("Enter the value of a    ::");
+		a=sc.nextInt();
+		System.out.print("Enter the value of b    ::");
+		b=sc.nextInt();
+		System.out.print("Enter the value of c   ::");
+		c=sc.nextInt();
+
+		sum=a+b+c;
+		avg=sum/3;
+
+		System.out.println("value of a is    ::"+a);
+		System.out.println("value of b is    ::"+b);
+		System.out.println("value of c is    ::"+c);
+
+		System.out.println("The sum is ::"+sum);
+		System.out.println("The avg is  ::"+avg);
+	}
+}
+		
+
 

@@ -1,1 +1,72 @@
+import java.util.*;
+public class P1 {
+    private String name;
+    private int age;
+	
 
+    // Constructor with arguments
+    public P1(String name, int age) {
+	
+        this.name = name;
+        this.age = age;
+    }
+	
+
+    // Method to display information about the person
+    public void displayInfo() {
+	import java.util.*;
+public class P1 {
+    private String name;
+    private int age;
+	
+
+    // Constructor with arguments
+    public P1(String name, int age) {
+	
+        this.name = name;
+        this.age = age;
+    }
+	
+
+    // Method to display information about the person
+    public void displayInfo() {
+	System.out.println("Pinak viradiya");
+		System.out.println("220130318014");
+	
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+
+    public static void main(String[] args) {
+        // Creating objects of Person class using constructor with arguments
+        P1 person1 = new P1("Prem", 18);
+        P1 person2 = new P1("Khush", 19);
+
+        // Displaying information about the persons
+        System.out.println("Person 1:");
+        person1.displayInfo();
+        System.out.println();
+
+        System.out.println("Person 2:");
+        person2.displayInfo();
+    }
+}
+	
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+
+    public static void main(String[] args) {
+        // Creating objects of Person class using constructor with arguments
+        P1 person1 = new P1("Prem", 18);
+        P1 person2 = new P1("Khush", 19);
+
+        // Displaying information about the persons
+        System.out.println("Person 1:");
+        person1.displayInfo();
+        System.out.println();
+
+        System.out.println("Person 2:");
+        person2.displayInfo();
+    }
+}

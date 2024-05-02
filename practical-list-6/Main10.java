@@ -10,7 +10,7 @@ public class Main10 {
 
         try {
             // Read the file and update the age for "David Lee"
-            updateAgeInCSV(fileName, "David Lee", 21);
+            updateAgeInCSV(fileName, "pinak", 21);
 
             // Read and display the updated content of the file
             readFromFile(fileName);
